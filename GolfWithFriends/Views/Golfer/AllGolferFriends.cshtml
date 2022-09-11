@@ -1,0 +1,37 @@
+﻿@using System.Security.Claims
+@model IEnumerable<FriendListItem>
+
+
+
+<h1 class="text-center">All Friends</h1>
+<hr />
+
+@Html.ActionLink("All Challenges", "AllChallenges", "Golfer")
+
+@foreach (var friend in Model)
+{
+
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://qph.cf2.quoracdn.net/main-qimg-834e72fbec123c325af0b829b6790e0b" class="card-img-top" alt="friend img" style="width:100%">
+        <div class="card-body">
+            <h5 class="card-title">@friend.FirstName @friend.LastName</h5>
+            <p class="card-text">Handicap: @friend.Handicap 
+                Location: @friend.Location</p>
+
+            @Html.ActionLink(  "Challenge", "ChallengeCreate", "Golfer", new {id = friend.FriendId}) |
+            @Html.ActionLink(  "Remove Friend", "DeleteGolferFriend", "Golfer", new {id = friend.FriendId}) |
+            @Html.ActionLink("Text", "Text", "Golfer", new {id = friend.FriendId })
+           
+
+            @*<a href="#" class="btn btn-primary">Go somewhere</a>*@
+            @*@Html.ActionLink("Text", "Text", "Golfer", new {id = friend.Phone}))*@
+
+        </div>
+    </div>
+}
+
+
+<hr />
+
+

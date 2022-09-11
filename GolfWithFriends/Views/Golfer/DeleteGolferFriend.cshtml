@@ -1,0 +1,20 @@
+﻿@model Golfers_Friends
+
+
+
+@{
+    ViewData["Title"] = "DeleteGolferFriend";
+}
+<h1>Delete Golfer</h1>
+
+<h3>Are you sure you want to delete  ?</h3>
+<hr />
+
+
+<form asp-action="DeleteGolferFriend">
+    <input type="submit" value="Delete" class="btn btn-danger" /> |
+    <a asp-action="Index" class="btn btn-success">Back to List</a>
+</form>
+
+
+

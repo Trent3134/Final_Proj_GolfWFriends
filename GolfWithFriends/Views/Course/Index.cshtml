@@ -1,0 +1,61 @@
+﻿@model IEnumerable<CourseListItem>
+
+<h1>Golf Course Ratings</h1>
+<p>
+    <a asp-action="Create">Create Course</a>
+</p>
+<hr />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstAndLastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name) 
+
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Difficulty)
+            </th>
+
+            <th>
+                Options
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var course in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => course.FirstAndLastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => course.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => course.Location)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => course.Rating)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => course.Difficulty)
+                </td>
+                <td>
+
+                    @Html.ActionLink(  "Delete Course", "DeleteCourse", "Course", new {id = course.Id}) |
+                    @Html.ActionLink(  "Edit", "Edit", "Course", new {id = course.Id}) |
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

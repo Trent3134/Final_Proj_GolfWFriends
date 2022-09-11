@@ -1,0 +1,23 @@
+﻿@model GolferCreate
+
+<div class="container">
+    <form method="post" asp-action="Create">
+        <div class="form-group">
+        <label for="FirstName">First Name</label>
+        <input type="text" class="form-control" name="FirstName" placeholder="Tiger" />
+        </div>
+        <div class="form-group">
+        <label for="LastName">Last Name</label>
+        <input type="text" class="form-control" name="LastName" placeholder="Woods" />
+        </div>
+        <div class="form-group">
+        <label for="Handicap">Handicap</label>
+        <input type="number" class="form-control" name="Handicap" placeholder="+7" />
+        </div>
+        <div class="form-group">
+        <label for="Location">Location</label>
+        <input type="text" class="form-control" name="Location" placeholder="Plainfield, IN" />
+        </div>
+        <button type="submit" class="btn btn-primary btn block mt-2">Create</button>
+    </form>
+</div> 

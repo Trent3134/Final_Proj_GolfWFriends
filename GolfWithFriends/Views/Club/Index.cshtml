@@ -1,0 +1,50 @@
+﻿@*<script type="text/javascript">*@
+<link href=".//css/SpinningWheel.css" rel="stylesheet" type="text/css" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>One Club Challenge</title>
+    
+  
+
+    <h2>Use this club for the entire hole.</h2>
+
+        
+</head>
+
+    <div id="mainbox" class="mainbox">
+        <div id="box" class="box">
+            <div class="box1">
+                <span class="span1"><b>4i</b></span>
+                <span class="span2"><b>6i</b></span>
+                <span class="span3"><b>dr</b></span>
+                <span class="span4"><b>3W</b></span>
+            </div>
+            <div class="box2">
+                <span class="span1"><b>60</b></span>
+                <span class="span2"><b>9i</b></span>
+                <span class="span3"><b>hyb</b></span>
+                <span class="span4"><b>7i</b></span>
+            </div>
+        </div>
+        <button class="spin" onclick="myfunction()">SPIN</button>
+    </div>
+    <script>
+        function myfunction() {
+            var x = 1024;
+            var y = 9999;
+
+            var deg = Math.floor(Math.random() * (x - y)) + y;
+
+            document.getElementById('box').style.transform = "rotate(" + deg + "deg)";
+
+            var element = document.getElementById('mainbox');
+            element.classList.remove('animate');
+            setTimeout(function () {
+                element.classList.add('animate');
+            }, 5000)
+        }
+    </script>
+
+</html>

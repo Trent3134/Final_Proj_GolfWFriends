@@ -1,0 +1,27 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/*img{
+    max-width: 100%;
+    max-height: auto;
+}*/
+/*html {
+    background: url(../assets/istockphoto-465611306-612x612.jpg)no-repeat center center fixed;
+    background-size: cover;
+}*/

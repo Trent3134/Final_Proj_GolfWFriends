@@ -1,0 +1,17 @@
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\bin\Debug\net6.0\GolfWithFriends.Services.deps.json
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\bin\Debug\net6.0\GolfWithFriends.Services.dll
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\bin\Debug\net6.0\GolfWithFriends.Services.pdb
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\bin\Debug\net6.0\GolfWithFriends.Data.dll
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\bin\Debug\net6.0\GolfWithFriends.Models.dll
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\bin\Debug\net6.0\GolfWithFriends.Data.pdb
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\bin\Debug\net6.0\GolfWithFriends.Models.pdb
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\obj\Debug\net6.0\GolfWithFriends.Services.csproj.AssemblyReference.cache
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\obj\Debug\net6.0\GolfWithFriends.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\obj\Debug\net6.0\GolfWithFriends.Services.AssemblyInfoInputs.cache
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\obj\Debug\net6.0\GolfWithFriends.Services.AssemblyInfo.cs
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\obj\Debug\net6.0\GolfWithFriends.Services.csproj.CoreCompileInputs.cache
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\obj\Debug\net6.0\GolfWithFriends.Services.csproj.CopyComplete
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\obj\Debug\net6.0\GolfWithFriends.Services.dll
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\obj\Debug\net6.0\refint\GolfWithFriends.Services.dll
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\obj\Debug\net6.0\GolfWithFriends.Services.pdb
+C:\Immersions\GolfWithFriendsSLN\GolfWithFriends.Services\obj\Debug\net6.0\ref\GolfWithFriends.Services.dll

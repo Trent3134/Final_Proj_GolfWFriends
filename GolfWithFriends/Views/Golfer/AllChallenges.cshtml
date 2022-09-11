@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ChallengeListItem>
+
+
+
+
+
+
+<h1>All Challenges</h1>
+
+<table class="table table-striped table-dark">
+    <thead>
+        <tr>
+            <th>First and Last name</th>
+            <th>Handicap</th>
+            <th>Location</th>
+            <th>Options</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var friends in Model)
+        {
+            <tr>
+                <td>@friends.FirstName @friends.LastName</td>
+                <td>@friends.Handicap</td>
+                <td>@friends.Location</td>
+
+                <td>
+
+                   
+
+
+                </td>
+            </tr>
+        }*
+
+
+
+
+ </tbody>
+</table>
