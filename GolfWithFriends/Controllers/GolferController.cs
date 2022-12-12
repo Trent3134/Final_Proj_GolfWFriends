@@ -217,6 +217,21 @@ public class GolferController : Controller
             LastName = user.LastName,
             Handicap = user.Handicap,
             Location = user.Location,
+            DegreeWedge = user.DegreeWedge,
+            DegreeWedge2 = user.DegreeWedge2,
+            PitchingWedge = user.PitchingWedge,
+            NineIron = user.NineIron,
+            EightIron = user.EightIron,
+            SevenIron = user.SevenIron,
+            SixIron = user.SixIron,
+            FiveIron = user.FiveIron,
+            FourIron = user.FourIron,
+            ThreeIron = user.ThreeIron,
+            TwoIron = user.TwoIron,
+            OneIron = user.OneIron,
+            FiveWood = user.FiveWood,
+            ThreeWood = user.ThreeWood,
+            Driver = user.Driver,
         };
         return View(details);
     }

@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
@@ -81,6 +82,21 @@ namespace GolfWithFriends.Areas.Identity.Pages.Account
             public string LastName { get; set; }
             public int Handicap { get; set; }
             public string Location { get; set; }
+            public int DegreeWedge { get; set; }
+            public int DegreeWedge2 { get; set; }
+            public int PitchingWedge { get; set; }
+            public int NineIron { get; set; }
+            public int EightIron { get; set; }
+            public int SevenIron { get; set; }
+            public int SixIron { get; set; }
+            public int FiveIron { get; set; }
+            public int FourIron { get; set; }
+            public int ThreeIron { get; set; }
+            public int TwoIron { get; set; }
+            public int OneIron { get; set; }
+            public int FiveWood { get; set; }
+            public int ThreeWood { get; set; }
+            public int Driver { get; set; }
             //public byte[] UserPhoto { get; set; }
             //public string PhoneNumber { get; set; }
 
@@ -140,6 +156,24 @@ namespace GolfWithFriends.Areas.Identity.Pages.Account
                 user.LastName = Input.LastName;
                 user.Handicap = Input.Handicap;
                 user.Location = Input.Location;
+                user.DegreeWedge = Input.DegreeWedge;
+                user.DegreeWedge2 = Input.DegreeWedge2;
+                user.PitchingWedge = Input.PitchingWedge;
+                user.NineIron = Input.NineIron;
+                user.EightIron = Input.EightIron;
+                user.SevenIron = Input.SevenIron;
+                user.SixIron = Input.SixIron;
+                user.FiveIron = Input.FiveIron;
+                user.FourIron = Input.FourIron;
+                user.ThreeIron  = Input.ThreeIron;
+                user.TwoIron = Input.TwoIron;
+                user.OneIron = Input.OneIron;
+                user.FiveWood = Input.FiveWood;
+                user.ThreeWood = Input.ThreeWood;
+                user.Driver = Input.Driver;
+
+                
+                
                 //user.UserPhoto = Input.UserPhoto;
                 //user.PhoneNumber = Input.PhoneNumber;
 

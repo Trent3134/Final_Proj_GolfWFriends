@@ -303,8 +303,29 @@ namespace GolfWithFriends.Data.Migrations
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
+                    b.Property<int>("DegreeWedge")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DegreeWedge2")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Driver")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EightIron")
+                        .HasColumnType("int");
+
                     b.Property<string>("FirstName")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("FiveIron")
+                        .HasColumnType("int");
+
+                    b.Property<int>("FiveWood")
+                        .HasColumnType("int");
+
+                    b.Property<int>("FourIron")
+                        .HasColumnType("int");
 
                     b.Property<int>("Handicap")
                         .HasColumnType("int");
@@ -314,6 +335,30 @@ namespace GolfWithFriends.Data.Migrations
 
                     b.Property<string>("Location")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("NineIron")
+                        .HasColumnType("int");
+
+                    b.Property<int>("OneIron")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PitchingWedge")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SevenIron")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SixIron")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ThreeIron")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ThreeWood")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TwoIron")
+                        .HasColumnType("int");
 
                     b.HasDiscriminator().HasValue("Golfers");
                 });

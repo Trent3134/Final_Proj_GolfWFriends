@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Aex48YsdsZ1BZ+f+lbxZXKLe1UJHVrnR60ibJ+zmWx4=",
+  "Hash": "z9DllUqq6TSdy8m3+bo2T8XZkBoonp+Sg726DCE3x3c=",
   "Source": "GolfWithFriends",
   "BasePath": "_content/GolfWithFriends",
   "Mode": "Default",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\allgolfers.css"
+    },
+    {
+      "Identity": "C:\\Immersions\\GolfWithFriendsSLN\\GolfWithFriends\\wwwroot\\css\\GolfersFriends.css",
+      "SourceId": "GolfWithFriends",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Immersions\\GolfWithFriendsSLN\\GolfWithFriends\\wwwroot\\",
+      "BasePath": "_content/GolfWithFriends",
+      "RelativePath": "css/GolfersFriends.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\GolfersFriends.css"
     },
     {
       "Identity": "C:\\Immersions\\GolfWithFriendsSLN\\GolfWithFriends\\wwwroot\\css\\home.css",

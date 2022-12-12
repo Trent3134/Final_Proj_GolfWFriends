@@ -1,4 +1,5 @@
-﻿@using System.Security.Claims
+﻿
+@using System.Security.Claims
 @model IEnumerable<FriendListItem>
 
 
@@ -8,11 +9,12 @@
 
 @Html.ActionLink("All Challenges", "AllChallenges", "Golfer")
 
+    <div class="row row-cols-1 row-cols-md-3 g-4">
 @foreach (var friend in Model)
 {
 
-
-    <div class="card" style="width: 18rem;">
+    <div class="col">
+    <div class="card h-100" style=" width: 18rem;">
         <img src="https://qph.cf2.quoracdn.net/main-qimg-834e72fbec123c325af0b829b6790e0b" class="card-img-top" alt="friend img" style="width:100%">
         <div class="card-body">
             <h5 class="card-title">@friend.FirstName @friend.LastName</h5>
@@ -29,7 +31,9 @@
 
         </div>
     </div>
+    </div>
 }
+    </div>
 
 
 <hr />

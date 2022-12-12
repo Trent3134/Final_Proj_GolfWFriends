@@ -103,7 +103,22 @@ public class GolferService : IGolferService
             LastName = golfer.LastName,
             Handicap = golfer.Handicap,
             Location = golfer.Location,
-            PhoneNumber = golfer.PhoneNumber
+            PhoneNumber = golfer.PhoneNumber,
+            DegreeWedge = golfer.DegreeWedge,
+           DegreeWedge2 = golfer.DegreeWedge2,
+           PitchingWedge = golfer.PitchingWedge,
+           NineIron = golfer.NineIron,
+           EightIron = golfer.EightIron,
+           SevenIron = golfer.SevenIron,
+           SixIron = golfer.SixIron,
+           FiveIron = golfer.FiveIron,
+           FourIron = golfer.FourIron,
+           ThreeIron = golfer.ThreeIron,
+           TwoIron = golfer.TwoIron,
+           OneIron = golfer.OneIron,
+           FiveWood = golfer.FiveWood,
+           ThreeWood = golfer.ThreeWood,
+           Driver = golfer.Driver,
         };
 
 
